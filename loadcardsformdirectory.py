@@ -1,8 +1,5 @@
 import tkinter
 import random
-#
-# window = tkinter.Tk()
-
 
 
 def load_cards(place_to_hold):
@@ -24,11 +21,6 @@ def load_cards(place_to_hold):
             image = tkinter.PhotoImage(file=adress)
             place_to_hold.append((10, image))
 
+
 def shufle_card(cards):
     return random.shuffle(cards)
-# cards = []
-# load_cards(cards)
-# label = tkinter.Label(window, image=cards[1][1])
-# label.pack()
-# window.mainloop()
-# print(cards[15][1])
